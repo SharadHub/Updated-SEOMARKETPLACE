@@ -1,0 +1,123 @@
+/* General Body and Layout Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Login Button Styling */
+header nav ul li a[href="login.php"] {
+    background-color: blue; /* Blue background */
+    color: white; /* White text */
+    border: 2px solid white; /* White border */
+}
+
+header nav ul li a[href="login.php"]:hover {
+    background-color: white; /* White background on hover */
+    color: blue; /* Blue text on hover */
+}
+
+/* Main Content Styling */
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.main .main-content {
+    width: 50%;
+}
+
+.main .main-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main .main-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cta-btn a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.cta-btn:hover {
+    background-color: #e68a00;
+}
+
+.image-content {
+    width: 45%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}

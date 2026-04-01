@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# PHP dependencies
+vendor/
+composer.lock
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache and temp files
+cache/
+temp/
+tmp/
+*.tmp
+
+# Uploaded files (if any)
+uploads/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Session files
+sessions/
+
+# Build artifacts
+build/
+dist/
